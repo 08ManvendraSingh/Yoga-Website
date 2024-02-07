@@ -1,0 +1,645 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container{
+	width: 100%;
+	height: 120vh;
+	background-color: #716A49;
+}
+.nav-bar{
+	width: 100%;
+	padding: 20px 200px;
+	background-color: #fff;
+}
+.logo{
+	display: inline-block;
+}
+.menu{
+	float:right;
+}
+.menu ul li{
+	display: inline-block;
+	line-height: 40px;
+	font-size: 1.5rem;
+	margin-left: 20px;
+}
+.hero{
+	width: 100%;
+	padding: 10rem 200px;
+	position: relative;
+	z-index: 1;
+}
+.heroBx{
+	width: 100%;
+	position: relative;
+}
+.heroBx:after{
+	content: '';
+	position: absolute;
+	width: 5%;
+	padding: 80px 50px;
+	top: -100px;
+	left: 870px;
+	border-radius: 50%;
+	border:45px solid #eed050;
+	background-color: transparent;
+	z-index: -1;
+}
+.hero_leftBx{
+	width: 45%;
+	height: 32rem;
+	float: left;
+}
+.hero_leftBx img{
+	width: 100%;
+	height: 100%;
+}
+.hero_rightBx{
+	width: 45%;
+	float: left;
+	padding: 1.5rem 3rem;
+	background-color: #fff;
+}
+.hero_rightBx h1{
+	font-size: 3.5rem;
+	margin-bottom:1.5rem;
+}
+.hero_rightBx p{
+	line-height: 2rem;
+	margin-bottom:4rem;
+	letter-spacing: 1px;
+}
+.hero_rightBx button{
+	background-color:#716A49;
+	padding: 20px 50px;
+	color: #fff;
+	font-size: 1.2rem;
+	text-align: center;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	margin-bottom: 1.5rem;
+}
+.container2{
+	width: 100%;
+	padding: 2rem 200px;
+	background-color:#716A49;
+	position: relative;
+}
+.two-leftBx{
+	width: 32%;
+	position: relative;
+	z-index: 2;
+	float: left;
+}
+.two-limgBx{
+	width: 100%;
+	height: 20rem;
+	margin-bottom: 2rem;
+}
+.two-limgBx img{
+	width: 100%;
+	height: 100%;
+}
+.two-lcontentBx{
+	padding-top: 2rem;
+	background-color: #fff;
+	color: #111;
+}
+.two-lcontentBx h1{
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin-bottom: 1.5rem;
+	letter-spacing: 4px;
+}
+.two-lcontentBx p{
+	margin-bottom: 1.5rem;
+	line-height: 2rem;
+	letter-spacing: 1px;
+}
+.two-lcontentBx button{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
+.two-middleBx{
+	width: 32%;
+	padding: 10rem 0;
+	position: relative;
+	margin-left: 1.5rem;
+	z-index: 2;
+	float: left;
+}
+.two-mimgBx{
+	width: 100%;
+	height: 20rem;
+}
+.two-middleBx img{
+	width: 100%;
+	height: 100%;
+}
+.two-rightBx{
+	width: 32%;
+	color: #fff;
+	margin-left: 1rem;
+	position: relative;
+	z-index: 2;
+	float: left;
+}
+.two-rcontentBx{
+	padding: 1.5rem 0;
+	margin-bottom: 3rem;
+}
+.two-rcontentBx h1{
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin-bottom: 1.5rem;
+	letter-spacing: 4px;
+}
+.two-rcontentBx p{
+	margin-bottom: 1.5rem;
+	line-height: 2rem;
+	letter-spacing: 1px;
+}
+.two-rcontentBx button{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.two-rimgBx{
+	width: 100%;
+	height: 20rem;
+}
+.two-rimgBx img{
+	width: 100%;
+	height: 100%;
+}
+.container2:after{
+	content: '';
+	position: absolute;
+	background-color: #fff;
+	width: 100%;
+	height: 50%;
+	top: 400px;
+	left: 0px;
+	z-index: 1;
+}
+.container3{
+	width: 100%;
+	height: 120vh;
+	padding: 10rem 200px;
+	position: relative;
+}
+.three-leftBx{
+	width: 25%;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+.top-imgBx{
+	width: 100%;
+	height: 15rem;
+	margin-bottom: 1rem;
+	background: url(image/yoga5.jpg) center;
+	background-size: cover;
+}
+.down-imgBx{
+	width: 100%;
+	height: 15rem;
+	background: url(image/yoga6.jpg) center;
+	background-size: cover;
+}
+.three-middleBx{
+	width: 35%;
+	margin-left: 2%;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+.three-imgBx{
+	width: 100%;
+	height: 25rem;
+	background: url(image/yoga7.jpg) center;
+	background-size: cover;
+}
+.three-rightBx{
+	width: 35%;
+	background-color: #fff;
+	margin-left: 2%;
+	float: left;
+	padding: 3rem 0;
+	padding-left: 2rem;
+	z-index: 2;
+	position: relative;
+}
+.three-rightBx h1{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+.three-rightBx p{
+	line-height: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.three-rightBx button{
+	background-color:#E5E5E5;
+	padding: 20px 50px;
+	font-size: 1.2rem;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+.container3:after{
+	content: '';
+	position: absolute;
+	background-color: #fff;
+	width: 35%;
+	height: 55%;
+	top: 100px;
+	left: 550px;
+	border-radius: 50%;
+	border: 100px solid #eed050;
+	z-index: 1;
+}
+.container4{
+	width: 100%;
+	height: 100vh;
+	padding: 0 200px;
+}
+.container4 h1{
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 5rem;
+	color: #546166;
+}
+.four-middleBx{
+	width: 100%;
+	margin-bottom: 33rem;
+}
+.imgBx1{
+	width: 23%;
+	height: 20rem;
+	text-align: center;
+	color: #fff;
+	padding: 0 2rem;
+	padding-top: 5rem;
+	float: left;
+	background:linear-gradient(0deg, rgba(51,49,41,0.5), rgba(51,49,41,0.5)), url(image/yoga8.jpg) center;
+	background-size: cover;
+}
+.imgBx1 h3{
+	font-weight: lighter;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+}
+.imgBx2{
+	width: 23%;
+	height: 20rem;
+	text-align: center;
+	color: #fff;
+	padding: 0 2rem;
+	padding-top: 5rem;
+	float: left;
+	margin-left: 2%;
+	background:linear-gradient(0deg, rgba(51,49,41,0.5), rgba(51,49,41,0.5)), url(image/yoga9.jpg) center;
+	background-size: cover;
+}
+.imgBx2 h3{
+	font-weight: lighter;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+}
+.imgBx3{
+	width: 23%;
+	height: 20rem;
+	text-align: center;
+	color: #fff;
+	padding: 0 2rem;
+	padding-top: 5rem;
+	margin-left: 2%;
+	float: left;
+	background:linear-gradient(0deg, rgba(51,49,41,0.5), rgba(51,49,41,0.5)), url(image/yoga10.jpg) center;
+	background-size: cover;
+}
+.imgBx3 h3{
+	font-weight: lighter;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+}
+.imgBx4{
+	width: 23%;
+	height: 20rem;
+	text-align: center;
+	color: #fff;
+	padding: 0 2rem;
+	padding-top: 5rem;
+	margin-left: 2%;
+	float: left;
+	background:linear-gradient(0deg, rgba(51,49,41,0.5), rgba(51,49,41,0.5)), url(image/yoga11.jpg) center;
+	background-size: cover;
+}
+.imgBx4 h3{
+	font-weight: lighter;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+}
+.container4 button{
+	background-color:#E5E5E5;
+	padding: 20px 40px;
+	font-size: 1.2rem;
+	text-align: center;
+	border: none;
+	outline: none;
+	font-weight: lighter;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+.container5{
+	width: 100%;
+	padding: 2rem 200px;
+}
+.container5 h1{
+	text-align: center;
+	margin-bottom: 3rem;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	color: #546166;
+}
+.five-middleBx{
+	width: 100%;
+	height: 17rem;
+	margin-bottom: 2rem;
+}
+.fimgBx1{
+	width: 21%;
+	height: 15rem;
+	border-radius: 50%;
+	margin-top: 1rem;
+	float: left;
+	background: url(image/yoga12.jpg) center;
+	background-size: cover;
+}
+.fimgBx2{
+	width: 21%;
+	height: 15rem;
+	border-radius: 50%;
+	margin-left: 5%;
+	margin-top: 1rem;
+	float: left;
+	background: url(image/yoga13.jpg) center;
+	background-size: cover;
+}
+.fimgBx3{
+	width: 25%;
+	float: left;
+	margin-left: 3%;
+	background-color: #716a49;
+	color: #fff;
+	padding: 3rem 2rem;
+	text-align: center;
+}
+.fimgBx3 p{
+	line-height: 1.5rem;
+}
+.fimgBx4{
+	width: 21%;
+	height: 15rem;
+	border-radius: 50%;
+	margin-left: 3%;
+	margin-top: 1rem;
+	float: left;
+	background: url(image/yoga14.jpg) center;
+	background-size: cover;
+}
+.container6{
+	width: 100%;
+	padding: 3rem 200px;
+	background-color: #716a49;
+	color: #fff;
+}
+.six-leftBx
+{
+	width: 50%;
+	padding: 3rem 0;
+	float: left;
+}
+.circle{
+	width: 8%;
+	padding: 40px;
+	border-radius: 50%;
+	border: 20px solid #eed050;
+	margin-bottom: 1.5rem;
+}
+.six-contentBx h1{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+.six-contentBx p{
+	font-size: 1.3rem;
+	line-height: 2.5rem;
+	margin-bottom: 6rem;
+}
+.container6 button{
+	background-color:#E5E5E5;
+	padding: 20px 50px;
+	font-size: 1.2rem;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+.six-rightBx{
+	width: 45%;
+	height: 50rem;
+	float: left;
+	margin-left: 5%;
+	background: url(image/yoga15.jpg) top;
+	background-size: cover;
+}
+.container7{
+	width: 100%;
+	padding: 5rem 200px;
+}
+.seven-leftBx{
+	width: 40%;
+	padding-top: 15rem;
+	padding-right: 2.5rem;
+	float: left;
+}
+.seven-leftBx h1{
+	font-size: 3rem;
+	color: #546166;
+	margin-bottom: 2.5rem;
+}
+.seven-leftBx p{
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.seven-rightBx{
+	width: 50%;
+	height: 33rem;
+	margin-left: 10%;
+	float: left;
+}
+.seven-topBx{
+	width: 100%;
+	height: 50%;
+}
+.stop-imgBx1{
+	width: 45%;
+	height: 15rem;
+	border-radius: 50%;
+	border: 20px solid #eed050;
+	background: url(image/yoga16.jpeg) center;
+	background-size: cover;
+	float: left;
+}
+.stop-imgBx2{
+	width: 45%;
+	height: 15rem;
+	border-radius: 50%;
+	margin-left: 10%;
+	border: 20px solid #eed050;
+	background: url(image/yoga17.jpg) center;
+	background-size: cover;
+	float: left;
+}
+.seven-bottomBx{
+	width: 100%;
+	height: 50%;
+}
+.sbottom-imgBx1{
+	width: 45%;
+	height: 15rem;
+	border-radius: 50%;
+	border: 20px solid #eed050;
+	background: url(image/yoga18.jpeg) center;
+	background-size: cover;
+	float: left;
+}
+.sbottom-imgBx2{
+	width: 45%;
+	height: 15rem;
+	border-radius: 50%;
+	border: 20px solid #eed050;
+	margin-left: 10%;
+	background: url(image/yoga19.jpg) center;
+	background-size: cover;
+	float: left;
+}
+.container8{
+	width: 100%;
+	height: 40rem;
+	background-size: cover;
+}
+.eight-imgBx1{
+	width: 33.33%;
+	height: 100%;
+	background: url(image/yoga20.jpeg) center;
+	background-size: cover;
+	float: left;
+}
+.eight-imgBx2{
+	width: 33.33%;
+	height: 100%;
+	background: url(image/yoga21.jpeg) center;
+	background-size: cover;
+	float: left;
+	padding-top: 5rem;
+}
+.eight-imgBx2 h1{
+	text-align: center;
+	font-size: 3rem;
+	letter-spacing: 5px;
+	color: #fff;
+}
+.eight-imgBx3{
+	width: 33.33%;
+	height: 100%;
+	background: url(image/yoga22.jpeg) center;
+	background-size: cover;
+	float: left;
+}
+.container9{
+	width: 100%;
+}
+.nine-leftBx{
+	width: 40%;
+	height: 55rem;
+	background-color: #716a49;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: left;
+}
+.nine-leftBx:before{
+	content: '';
+	position: absolute;
+	width: 85%;
+	height: 85%;
+	top: 70px;
+	left: 200px;
+	background: url(image/yoga23.jpg) center;
+	background-size: cover;
+}
+.nine-rightBx{
+	width: 55%;
+	background-color: #fff;
+	padding: 5rem 0;
+	padding-left: 150px;
+	padding-right: 200px;
+	float: left;
+}
+.nine-rightBx h1{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: #111111;
+}
+.nine-rightBx input
+{
+	width: 100%;
+	height: 3rem;
+	border: none;
+	margin-bottom: 1.5rem;
+	background-color: #f2f2f2;
+	padding-left: 1rem;
+	font-size: 1rem;
+}
+.nine-rightBx .last
+{
+	width: 100%;
+	height: 7rem;
+	border: none;
+	margin-bottom: 1.5rem;
+}
+.nine-rightBx button{
+	width: 100%;
+	height: 3rem;
+	background-color: #716a49;
+	text-align: center;
+	margin-bottom: 2rem;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+	color: #fff;
+}
+.container9 h2{
+	font-size: 3.5rem;
+	margin-bottom: 2rem;
+}
+.iconBx{
+	width: 50%;
+}
+.iconBx i{
+	font-size: 2rem;
+	margin-right: 1rem;
+}
